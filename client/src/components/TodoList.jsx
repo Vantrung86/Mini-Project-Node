@@ -117,7 +117,7 @@ export default function TodoList() {
           {todos.map((item)=>(
                 <li key={item.id}>
                       <p onClick={()=>handleComplete(item.id)} 
-                        style={{textDecoration:item.complete ? "line-through" : "",width:"100px"}}
+                        style={{textDecoration:item.complete ? "line-through" : ""}}
                       >
                           {item.name}
                       </p>
