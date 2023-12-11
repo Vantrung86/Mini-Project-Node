@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(91,189,216);
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    background-color: rgb(255,255,255);
+    margin-top: 40px;
+}
+.form-group{
+    margin-top: 10px;
+    display: flex;
+
+}
+.form-group input{
+    width: 95%;
+    padding: 7px 12px;
+}
+.form-group input:focus{
+    outline: none;
+}
+.form-group button{
+    padding: 7px 12px;
+    background-color: rgb(139,73,240);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    margin: 10px 0;
+    background-color: rgb(242,242,242);
+    padding: 15px 0;
+    padding-left: 10px;
+    position: relative;
+    overflow-x: hidden;
+}
+ul li .fa-trash{
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+    top:10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+ul li:hover .fa-trash{
+    display: block;
+}
+
+ul li .fa-pen-to-square{
+    position: absolute;
+    right: 30px;
+    padding: 5px;
+    top:10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+ul li:hover .fa-pen-to-square{
+    display: block;
+}
+
+.botton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.botton button{
+    padding: 7px 12px;
+    background-color: rgb(139,73,240);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
